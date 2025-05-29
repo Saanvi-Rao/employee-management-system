@@ -41,7 +41,9 @@ Follow these steps to set up the project on your local machine:
 
 ## Database Setup
 This project uses SQLite3 for local data storage.
--   The `employees.db` file should be included in the repository and will be used automatically by the application. It may contain sample data for initial testing.
+-   The database structure (tables like Employee, Department, and Login) will be **automatically created** when the application runs for the first time. This process is handled by the `database.py` script.
+-   The database file will be named `employees.db` and stored in the project directory.
+-   No manual database setup is required before running the application.
 
 ## How to Run the Application
 1.  Ensure you have completed the installation steps above.
