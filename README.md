@@ -41,7 +41,7 @@ Follow these steps to set up the project on your local machine:
 
 ## Database Setup
 This project uses SQLite3 for local data storage.
--   The `database.py` file should be included in the repository and will be used automatically by the application. It may contain sample data for initial testing.
+-   The `employees.db` file should be included in the repository and will be used automatically by the application. It may contain sample data for initial testing.
 
 ## How to Run the Application
 1.  Ensure you have completed the installation steps above.
